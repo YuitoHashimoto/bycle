@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Bycle!</title>
+    <link rel="stylesheet" href="css/profileRegister.css">
+</head>
+<body>
+    <div class="wrap">
+        <header class="regiHead">
+            <a href="./firstView.html">
+                <img src="./img/back.svg" alt="">
+                <p>もどる</p>
+            </a>
+            <h1>新規登録</h1>
+        </header>
+        <main class="profileRegister">
+            <div class="profileRegister__headTxt">
+                <div class="profileRegister__headTxt__icon">
+                    <p class="profileRegister__headTxt__icon__step">STEP</p>
+                    <div class="profileRegister__headTxt__icon__circle">
+                        <p>1</p>
+                    </div>
+                </div>
+                <p class="profileRegister__headTxt__about">
+                    はじめに、<br>
+                    あなたの情報を<br>
+                    おしえてください
+                </p>
+            </div>
+            <div class="profileRegister__form">
+                <!-- お名前フォーム -->
+                <label for="name" class="profileRegister__form__label">
+                    <div class="profileRegister__form__label__head">
+                        <div class="profileRegister__form__label__head__icon">
+                            <img src="img/name.svg" alt="人アイコン">
+                        </div>
+                        <p class="profileRegister__form__label__head__txt">おなまえ</p>
+                        <div class="profileRegister__form__label__head__check">
+                            <img src="img/check_mark.svg" alt="チェックアイコン" >
+                        </div>
+                    </div>
+                    <input type="text" name="" id="name" class="profileRegister__form__label__input">
+                    <p class="profileRegister__form__label__checkTxt">おなまえ入力がされていません</p>
+                </label>
+                <!-- メールアドレス -->
+                <label for="email" class="profileRegister__form__label">
+                    <div class="profileRegister__form__label__head">
+                        <div class="profileRegister__form__label__head__icon">
+                            <img src="img/email_address.svg" alt="メールアイコン">
+                        </div>
+                        <p class="profileRegister__form__label__head__txt">メールアドレス</p>
+                        <div class="profileRegister__form__label__head__check">
+                            <img src="img/check_mark.svg" alt="チェックアイコン" >
+                        </div>
+                    </div>
+                    <input type="text" name="" id="email" class="profileRegister__form__label__input">
+                    <p class="profileRegister__form__label__checkTxt">メールアドレス入力がされていません</p>
+                </label>
+                <!-- パスワード -->
+                <label for="password" class="profileRegister__form__label">
+                    <div class="profileRegister__form__label__head">
+                        <div class="profileRegister__form__label__head__icon">
+                            <img src="img/key.svg" alt="鍵アイコン">
+                        </div>
+                        <p class="profileRegister__form__label__head__txt">パスワード</p>
+                        <div class="profileRegister__form__label__head__check">
+                            <img src="img/check_mark.svg" alt="チェックアイコン" >
+                        </div>
+                    </div>
+                    <input type="password" name="" id="password" class="profileRegister__form__label__input">
+                    <p class="profileRegister__form__label__checkTxt">パスワードが入力されていません</p>
+                </label>
+                <!-- 確認パスワード -->
+                <label for="checkPass" class="profileRegister__form__label">
+                    <div class="profileRegister__form__label__head">
+                        <div class="profileRegister__form__label__head__icon">
+                            <img src="img/again.svg" alt="リリースアイコン">
+                        </div>
+                        <p class="profileRegister__form__label__head__txt">パスワード再入力</p>
+                        <div class="profileRegister__form__label__head__check">
+                            <img src="img/check_mark.svg" alt="チェックアイコン" >
+                        </div>
+                    </div>
+                    <input type="password" name="" id="checkPass" class="profileRegister__form__label__input">
+                    <p class="profileRegister__form__label__checkTxt">確認パスワードが入力されていません</p>
+                </label>
+            </div>
+            <a class="nextBtn" href="./proofRegi.html">次へすすむ</a>
+        </main>
+        <footer class="regiFoot">
+            <img src="./img/footer_1.svg">
+        </footer>
+    </div>
+</body>
+</html>

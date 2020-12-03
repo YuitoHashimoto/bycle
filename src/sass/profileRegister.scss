@@ -1,0 +1,115 @@
+@import "_ress";
+@import "_common";
+@import "_component";
+@import "_main";
+
+.profileRegister {
+    color: $mainColor;
+    width: 263px;
+    margin: 0 auto;
+    &__headTxt {
+        height: 72px;
+        margin: 40px 0;
+        display: flex;
+        justify-content: space-between;
+        &__icon {
+            width: 58px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            &__step {
+                font-weight: bold;
+                letter-spacing: 3px;
+                font-size: 1.6rem;
+            }
+            &__circle {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                border: 1px solid $mainColor;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                p {
+                    font-size: 2.0rem;
+                    font-weight: bold;
+                }
+            }
+        }
+        &__about {
+            text-align: left;
+            width: 177px;
+            font-size: 1.6rem;
+            font-weight: 200;
+            letter-spacing: 3px;
+        }
+    }// headTXt
+    &__form {
+        &__label {
+            position: relative;
+            height: 64px;
+            display: block;
+            margin-bottom: 55px;
+            &__head {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 8px;
+                &__icon {
+                    width: 24px;
+                    height: 24px;
+                }
+                &__txt {
+                    width: 100%;
+                    padding-left: 24px;
+                    font-size: 1.6rem;
+                    font-weight: 200;
+                    text-align: left;
+                    letter-spacing: 2px;
+                }
+                &__check {
+                    width: 24px;
+                    height: 24px;
+                }
+            }// head
+            &__input {
+                width: 100%;
+                height: 32px;
+                border: 1px solid #506227;
+                border-radius: 4px;
+                color: #8A8A8A;
+                font-size: 1.2rem;
+                font-weight: 0;
+                padding-left: 8px;
+            }
+            &__input:focus {
+                outline: none;
+            }
+            &__checkTxt {
+                position: absolute;
+                color: #F9AB39;
+                display: none;
+            }
+        }//label
+        &__label:last-child {
+            margin-bottom: 44px;
+        }
+    }// form
+    .nextBtn {
+        width: 100%;
+        border-radius: 40px;
+        display: block;
+        padding: 12px 86px;
+        background: #F9AB39;
+        display: block;
+        color: #fff;
+        font-size: 1.6rem;
+        text-align: center;
+        cursor: pointer;
+    }
+    .nextBtn:focus {
+        outline: none;
+        user-select: none;
+    }
+}

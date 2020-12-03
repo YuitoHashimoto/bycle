@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="335" height="61" viewBox="0 0 335 61">
+  <g id="グループ_699" data-name="グループ 699" transform="translate(-20 -500)">
+    <line id="線_9" data-name="線 9" x2="327" transform="translate(24 536)" fill="none" stroke="#eaeaea" stroke-linecap="round" stroke-width="8"/>
+    <line id="線_10" data-name="線 10" x2="92" transform="translate(24 536)" fill="none" stroke="#9ac147" stroke-linecap="round" stroke-width="8"/>
+    <line id="線_11" data-name="線 11" y2="16" transform="translate(84 528)" fill="none" stroke="#9ac147" stroke-linecap="round" stroke-width="2"/>
+    <line id="線_12" data-name="線 12" y2="16" transform="translate(187.5 528)" fill="none" stroke="#9ac147" stroke-linecap="round" stroke-width="2"/>
+    <line id="線_13" data-name="線 13" y2="16" transform="translate(288 528)" fill="none" stroke="#9ac147" stroke-linecap="round" stroke-width="2"/>
+    <g id="グループ_10" data-name="グループ 10" transform="translate(72 500)">
+      <g id="楕円形_3" data-name="楕円形 3" fill="#fff" stroke="#9ac147" stroke-width="1">
+        <circle cx="12" cy="12" r="12" stroke="none"/>
+        <circle cx="12" cy="12" r="11.5" fill="none"/>
+      </g>
+      <path id="パス_7" data-name="パス 7" d="M1193,212l4,4,8-8" transform="translate(-1186.5 -200)" fill="none" stroke="#9ac147" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="グループ_298" data-name="グループ 298" transform="translate(175.5 500)">
+      <g id="楕円形_3-2" data-name="楕円形 3" fill="#fff" stroke="#f9ab39" stroke-width="1">
+        <circle cx="12" cy="12" r="12" stroke="none"/>
+        <circle cx="12" cy="12" r="11.5" fill="none"/>
+      </g>
+    </g>
+    <g id="グループ_299" data-name="グループ 299" transform="translate(276 500)">
+      <g id="楕円形_3-3" data-name="楕円形 3" fill="#fff" stroke="#f9ab39" stroke-width="1">
+        <circle cx="12" cy="12" r="12" stroke="none"/>
+        <circle cx="12" cy="12" r="11.5" fill="none"/>
+      </g>
+    </g>
+    <text id="_1.2km" data-name="1.2km" transform="translate(117 560)" fill="#506227" font-size="12" font-family="HiraKakuStd-W2, Hiragino Kaku Gothic Std" letter-spacing="0.2em"><tspan x="-22.686" y="0">1.2km</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+@mixin btn($bColor: #9AC147, $width: 96px, $height: 14px) {
+    padding: $height $width;
+    width: 263px;
+    border-radius: 40px;
+    background: $bColor;
+    display: block;
+}
+
+.test {
+     color: #9AC147;
+}

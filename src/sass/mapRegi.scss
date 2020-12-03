@@ -1,0 +1,72 @@
+@import "_ress";
+@import "_common";
+@import "_component";
+@import "_main";
+
+.wrap {
+    .mapRegi {
+        color: $mainColor;
+        width: 263px;
+        margin: 0 auto;
+        &__headTxt {
+            height: 72px;
+            margin: 40px 0;
+            display: flex;
+            justify-content: space-between;
+            &__icon {
+                width: 58px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                &__step {
+                    font-weight: bold;
+                    letter-spacing: 3px;
+                    font-size: 1.6rem;
+                }
+                &__circle {
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 50%;
+                    border: 1px solid $mainColor;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    p {
+                        font-size: 2.0rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+            &__about {
+                text-align: left;
+                width: 177px;
+                font-size: 1.6rem;
+                font-weight: 200;
+                letter-spacing: 3px;
+            }
+        }// headTXt
+        &__mapRegi {
+            width: 263px;
+            height: 420px;
+            margin-bottom: 44px;
+            background: tomato;
+        }// mapBox 
+        .nextBtn {
+            width: 100%;
+            border-radius: 40px;
+            display: block;
+            padding: 12px 86px;
+            background: #F9AB39;
+            display: block;
+            color: #fff;
+            font-size: 1.6rem;
+            text-align: center;
+            cursor: pointer;
+        }
+        .nextBtn:focus {
+            outline: none;
+            user-select: none;
+        }
+    }
+}

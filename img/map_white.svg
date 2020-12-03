@@ -1,0 +1,13 @@
+<svg id="グループ_292" data-name="グループ 292" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <circle id="楕円形_12" data-name="楕円形 12" cx="24" cy="24" r="24" fill="#fff"/>
+  <g id="グループ_275" data-name="グループ 275" transform="translate(8 8)">
+    <g id="長方形_82" data-name="長方形 82" fill="none" stroke="rgba(112,112,112,0)" stroke-width="2">
+      <rect width="32" height="32" stroke="none"/>
+      <rect x="1" y="1" width="30" height="30" fill="none"/>
+    </g>
+    <g id="Icon_feather-map-pin" data-name="Icon feather-map-pin" transform="translate(6 4)">
+      <path id="パス_137" data-name="パス 137" d="M24.5,11.5c0,7.778-10,14.444-10,14.444S4.5,19.278,4.5,11.5a10,10,0,0,1,20,0Z" transform="translate(-4.5 -1.5)" fill="none" stroke="#9ac147" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="パス_138" data-name="パス 138" d="M18.494,13.071A2.5,2.5,0,1,1,16,10.5,2.535,2.535,0,0,1,18.494,13.071Z" transform="translate(-5.997 -3.127)" fill="none" stroke="#9ac147" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,127 @@
+@import "_ress";
+@import "_common";
+@import "_component";
+@import "_main";
+
+.header {
+  position: relative;
+  width: 375px;
+  height: 64px;
+  background: #9AC147;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__title {
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  font-family: 'ヒラギノ角ゴ Std W8';
+}
+
+.header__btn {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.btn{
+  display: block;
+  text-decoration: none;
+  width: 263px;
+  height: 52px;
+  background: #9ac147;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 80px;
+  &__text{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'ヒラギノ角ゴ Std W2';
+    letter-spacing: 2px;
+    line-height: 52px;
+  }
+}
+
+.btn2{
+  display: block;
+  text-decoration: none;
+  width: 263px;
+  height: 52px;
+  background: #9ac147;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 57px;
+}
+
+.btn3{
+  display: block;
+  text-decoration: none;
+  width: 263px;
+  height: 52px;
+  background: #9ac147;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 57px;
+}
+
+.btn4{
+  display: block;
+  text-decoration: none;
+  width: 263px;
+  height: 52px;
+  background: #9ac147;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 57px;
+}
+
+.btn5{
+  display: block;
+  text-decoration: none;
+  width: 263px;
+  height: 52px;
+  background: #f9ab39;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 57px;
+}
+
+.footer{
+  width: 335px;
+  height: 80px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 84px;
+  background-color: #9ac147;
+  display: flex;
+  &__btn{
+    width: 212px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  &__sum{
+    width: 123px;
+    background-color: #8EB143;
+    border-radius: 0 10px 10px 0;
+    &__title{
+      color: #fff;
+      font-size: 12px;
+      font-family: 'ヒラギノ角ゴ Std W8';
+      letter-spacing: 3px;
+      text-align: center;
+      padding-top: 20px;
+    }
+    &__earn{
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: 3px;
+      text-align: center;
+      font-family: 'ヒラギノ角ゴ Std W8';
+    }
+  }
+}

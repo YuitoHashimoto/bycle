@@ -1,0 +1,72 @@
+@import "_ress";
+@import "_common";
+@import "_component";
+@import "_main";
+
+.header {
+  position: relative;
+  width: 375px;
+  height: 64px;
+  background: #9AC147;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__title {
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  font-family: 'ヒラギノ角ゴ Std W8';
+}
+
+.header__btn {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.map{
+  width: 335px;
+  height: 584px;
+  border: 1px solid #D3D3D3;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.footer{
+  width: 335px;
+  height: 80px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 28px;
+  background-color: #9ac147;
+  display: flex;
+  &__btn{
+    width: 212px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  &__sum{
+    width: 123px;
+    background-color: #8EB143;
+    border-radius: 0 10px 10px 0;
+    &__title{
+      color: #fff;
+      font-size: 12px;
+      font-family: 'ヒラギノ角ゴ Std W8';
+      letter-spacing: 3px;
+      text-align: center;
+      padding-top: 20px;
+    }
+    &__earn{
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: 3px;
+      text-align: center;
+      font-family: 'ヒラギノ角ゴ Std W8';
+    }
+  }
+}

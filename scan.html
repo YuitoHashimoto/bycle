@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR読み取り</title>
+  <link rel="stylesheet" href="css/scan.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="header">
+        <h1 class="header__title">QR読み取り</h1>
+        <a href="home.html" class="header__btn"><img src="img/return2.svg" alt=""></a>
+      </div>
+    </header>
+    <div class="scan">
+      <p class="scan__title">QRコードを読み取ります</p>
+      <canvas class="scan__img canvas" id="canvas">
+
+      </canvas>
+      <p class="scan__detail">QRコードを画面に合わせれば自動で認識します。</p>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="footer__btn">
+          <a href="map.html">
+            <img src="img/map.svg" alt="マップのボタン">
+          </a>
+          <a href="scan.html">
+            <img src="img/scan_white.svg" alt="バーコードをスキャンするボタン">
+          </a>
+          <a href="home.html">
+            <img src="img/home.svg" alt="ホームのボタン">
+          </a>
+        </div>
+        <div class="footer__sum">
+          <p class="footer__sum__title">稼いだ金額</p>
+          <p class="footer__sum__earn">¥10020</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <script src="./js/jsQR.js"></script>
+  <script src="./js/scan.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+@import "_ress";
+@import "_common";
+@import "_component";
+@import "_main";
+
+.top {
+  height: 64px;
+  background: #9AC147;
+
+  &__title {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 64px;
+    letter-spacing: 1.5px;
+    font-family: 'ヒラギノ角ゴ Std W8';
+  }
+}
+
+.notice {
+  height: 180px;
+
+  &__title {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'ヒラギノ角ゴ Std W2';
+    color: #506227;
+    margin-top: 40px;
+    margin-bottom: 18px;
+  }
+
+  &__image {
+    width: 216px;
+    border-radius: 4px;
+    height: 140px;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+}
+
+.group {
+  display: block;
+  display: flex;
+  width: 335px;
+  justify-content: space-between;
+  margin: 40px auto 0;
+  
+  &__box {
+    width: 90px;
+    height: 110px;
+    border-radius: 4px;
+    background: #9ac147;
+    
+    &__img {
+      padding-left: 31px;
+      padding-top: 21px;
+    }
+    
+    &__title {
+      width: 64px;
+      font-size: 12px;
+      color: #fff;
+      letter-spacing: 1.5px;
+      text-align: center;
+      margin: 18px auto 0;
+      border-top: 1px solid #fff;
+      padding-top: 8px;
+    }
+  }
+}
+
+.footer {
+  width: 335px;
+  height: 80px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 282px;
+  background-color: #9ac147;
+  display: flex;
+
+  &__btn {
+    width: 212px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+  }
+
+  &__sum {
+    width: 123px;
+    background-color: #8EB143;
+    border-radius: 0 10px 10px 0;
+
+    &__title {
+      color: #fff;
+      font-size: 12px;
+      font-family: 'ヒラギノ角ゴ Std W8';
+      letter-spacing: 3px;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    &__earn {
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: 3px;
+      text-align: center;
+      font-family: 'ヒラギノ角ゴ Std W8';
+    }
+  }
+}
+
+a{
+  text-decoration: none;
+}

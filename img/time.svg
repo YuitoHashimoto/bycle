@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="グループ_304" data-name="グループ 304" transform="translate(-176 -352)">
+    <g id="clock" transform="translate(176.25 352.25)">
+      <circle id="楕円形_19" data-name="楕円形 19" cx="8" cy="8" r="8" transform="translate(1.75 1.75)" fill="none" stroke="#9ac147" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="パス_154" data-name="パス 154" d="M12,6v4.65l3.1,1.55" transform="translate(-2.25 -0.9)" fill="none" stroke="#9ac147" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="長方形_99" data-name="長方形 99" transform="translate(176 352)" fill="none" stroke="rgba(112,112,112,0)" stroke-width="1">
+      <rect width="20" height="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+    </g>
+  </g>
+</svg>
