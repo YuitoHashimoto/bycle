@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/camela.css">
     <title>カメラ</title>
 </head>
 <body>
-    <video id="video" width="300px" height="300px"></video>
-    <canvas id="canvas" width="300px" height="300px"></canvas>
-    <button id="shutterBtn">シャッター</button>
+    <div class="wrap">
+        <main class="main">
+            <video class="video" id="video"></video>
+            <canvas id="canvas"></canvas>
+            <button id="shutterBtn"></button>    
+        </main>    
+    </div>
     <script src="js/camera.js"></script>
 </body>
 </html>

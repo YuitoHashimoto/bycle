@@ -1,7 +1,12 @@
 let profileData = {};
+const frontBtn = document.getElementById('front');
 
-if ( localStorage.getItem('profileData')) {
-    profileData = JSON.parse(localStorage.getItem('profileData'));
+frontBtn.onclick = () => {
+    location.href = "camera.html";
 }
 
-console.log(profileData); 
+if ( localStorage.getItem('profileData')) {
+    const uData = JSON.parse(localStorage.getItem('profileData'));
+    console.log(uData.proofFront); 
+    document.getElementById('frontImg').style.background = `url('${uData.proofFront}') center`
+}  

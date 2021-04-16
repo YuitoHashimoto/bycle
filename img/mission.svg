@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="グループ_306" data-name="グループ 306" transform="translate(-176 -352)">
+    <g id="長方形_99" data-name="長方形 99" transform="translate(176 352)" fill="none" stroke="rgba(112,112,112,0)" stroke-width="1">
+      <rect width="20" height="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+    </g>
+    <g id="compass" transform="translate(176 352)">
+      <circle id="楕円形_18" data-name="楕円形 18" cx="8" cy="8" r="8" transform="translate(2 2)" fill="none" stroke="#f9ab39" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="線_51" data-name="線 51" y1="5" transform="translate(10 6)" fill="none" stroke="#f9ab39" stroke-linecap="round" stroke-width="2"/>
+      <line id="線_52" data-name="線 52" transform="translate(10 14)" fill="none" stroke="#f9ab39" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

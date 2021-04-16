@@ -1,0 +1,29 @@
+@import "_ress";
+@import "_common";
+@import "_component";
+@import "_main";
+
+.main {
+    .video {
+        width: 375px;
+        height: 812px;
+        object-fit: fill;
+        z-index: 0;
+    }
+    #canvas {
+        display: none;
+    }
+    #shutterBtn {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        bottom: 50px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 5px solid #9AC147;
+        background: #fff;
+        z-index: 100;
+    }
+}

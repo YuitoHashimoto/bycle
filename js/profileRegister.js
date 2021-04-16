@@ -36,6 +36,7 @@ const nextBtnFunc = () => {
     if (profileData.name === "" | profileData.email === "" | profileData.password === "" | profileData.checkPass === "") {
         console.log("必須項目が未入力です。")
         location.href = "proofRegi.html"
+        localStorage.setItem('profileData', JSON.stringify(profileData))
     } else {
         localStorage.setItem('profileData', JSON.stringify(profileData))
         console.log("入力完了")

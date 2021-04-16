@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.0",
     "es6-promise": "^4.2.8",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",

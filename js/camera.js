@@ -1,14 +1,13 @@
 window.onload = () => {
     const video  = document.getElementById('video'),
-          canvas = document.getElementById('canvas');
+          canvas = document.getElementById('canvas'),
+          userData = JSON.parse(localStorage.getItem('profileData'));
     
     console.log(video);
     
     // カメラ設定
     const constraints = {
       video: {
-        width: 300,
-        height: 300,
         facingMode: "environment"
       }
     };
@@ -42,28 +41,32 @@ window.onload = () => {
 
         // canvasの画像データ取得s
         let base64 = canvas.toDataURL();
-        let postData = {
-            imgData: "test"
-        }
-        // console.log(base64);
+        let postData = JSON.stringify({
+            imgData: base64,
+            uName: userData.name,
+        });
+
+        // console.log(userData.name)
 
         // 取得した画像データをphpに送信
-        fetch('http://localhost/bycle/bycle_github/php/camera.php', {
-            method: 'POST',
-            headers: {
-                "Content-Type": "application/json"
-              },
-            body: JSON.stringify(postData),
+        fetch('./php/camera.php', {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: postData
         })
         .then(response => {
-            return response.text().then(data => {
-                data.forEach(element => {
-                    console.log(element);
-                });
-            });
+          return response.json();
         })
-        .catch((error) => {
-            console.log(error);
+        .then(data => { 
+          console.log(data);
+          userData.proofFront = data.filePath;
+          localStorage.setItem('profileData', JSON.stringify(userData));
+          location.href = "pictureRegi.html";
+        })
+        .catch(e => {
+          console.error(e);
         });
     });
   };

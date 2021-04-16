@@ -397,7 +397,7 @@ body {
   overflow: scroll;
   width: 375px;
   height: 812px;
-  font-family: 'ヒラギノ角ゴ Std';
+  font-family: 'ヒラギノ角ゴ Std ';
   outline: 4px solid #9AC147;
   outline-offset: -4px;
 }
@@ -602,7 +602,7 @@ body {
   width: 263px;
   height: 420px;
   margin-bottom: 44px;
-  background: tomato;
+  background: url("../img/map.png");
 }
 
 .wrap .mapRegi .nextBtn {

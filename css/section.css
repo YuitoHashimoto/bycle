@@ -392,8 +392,9 @@ body {
 }
 
 .wrap {
+  -webkit-tap-highlight-color: transparent;
   position: relative;
-  overflow: hidden;
+  overflow: scroll;
   width: 375px;
   height: 812px;
   font-family: 'ヒラギノ角ゴ Std ';
@@ -441,6 +442,23 @@ body {
   right: 0;
   left: 0;
   margin: 0 auto;
+  z-index: -100;
+}
+
+.wrap .regiFoot {
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .wrap .firstView {
@@ -456,18 +474,7 @@ body {
 }
 
 .wrap .firstView__txtArea {
-  margin-top: 18px;
-}
-
-.wrap .firstView__txtArea h1 {
-  font-size: 2.0rem;
-  font-weight: 300;
-  margin-bottom: 76px;
-}
-
-.wrap .firstView__txtArea p {
-  font-size: 1.2rem;
-  font-weight: 300;
+  margin-bottom: 35px;
 }
 
 .wrap .firstView__btnArea {
@@ -521,60 +528,9 @@ body {
   background-size: cover;
 }
 
-.wrap .profileRegister {
-  font-family: 'ヒラギノ角ゴ Std';
-  color: #9AC147;
-}
-
-.wrap .profileRegister__step {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 56px;
-}
-
-.wrap .profileRegister__step p {
-  font-size: 16px;
-  font-weight: lighter;
-  margin: 26px;
-}
-
-.wrap .profileRegister__title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 40px;
-}
-
-.wrap .profileRegister__title img {
-  margin-left: 56px;
-}
-
-.wrap .profileRegister__title p {
-  margin-right: 100px;
-  margin-top: 10px;
-  margin-left: 24px;
-}
-
-.wrap .profileRegister__title h3 {
-  margin-right: 56px;
-}
-
-.test div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 263px;
-  margin: 0 auto;
+.wrap .nextBtn:link, .wrap .nextBtn:visited {
+  color: #fff;
+  text-decoration: none;
 }
 
 .header {
